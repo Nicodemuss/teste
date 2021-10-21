@@ -1,3 +1,12 @@
+
+.page-header{
+    color: rgb(80, 80, 80);
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
 div h1{
     color: rgb(80, 80, 80);
     text-align: left;
@@ -29,25 +38,26 @@ div.informacoes_para_contato{
 }
 
 
-h1.titulo{
-    
+ h1.titulo{
+    display: inline;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     color: rgb(80, 80, 80);
     font-family: Arial;
+    font-size: 1.6em;
     text-align: center;
-    margin-left:  37%;
-    margin-right:  37%;
-   /* background-image: url(fundo\ cinza.jpg); */
+    margin-left:  10%;
+    margin-right:  0%;
     width: 500px;
-}
+    background-color: rgb(255, 233, 136, 0.507);
+} 
 .foto_pessoal{
     height: 150px;
     width: 150px;
-    margin-left: 54%;
-    margin-right: 49%;
+    margin-left: 30%;
+    margin-right: auto; 
     border: 10px solid rgba(255, 233, 136, 0.507);
-    border-radius: 10em;
+    border-radius: 10em; 
 }
 .hai p{
     border: 1em auto;
@@ -63,5 +73,52 @@ h1.titulo{
 
 }
 body{
-    width: 85%;
+    width: 75%;
+    background-image: url(fundoBege.jpg);
+}
+.ladinho{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f100;
+    position: sticky;
+    top: 5px;
+    left: 1100px;
+    margin-right: -150px;
+    background-color: rgba(240, 248, 255, 0);
+    background-repeat: repeat-y;
+}
+.texto{
+    margin-left: 15px;
+}
+div.pontos_fortes{
+    border: 1em auto;
+    text-align: left;
+    width: 46em;
+    font-family:arial ;
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+}
+nav {
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+   
+}
+nav a{
+    padding: 2px;
+    background-color: beige;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    
+}
+nav a:hover {
+    background-color: rgb(191, 245, 255);
+    font-size: 1.2em;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
 }
