@@ -1,0 +1,32 @@
+ h1{
+            color: red;
+            font-size: 20px;
+        }
+/* quando trocamos de cor, a cor do elemento ainda se mantem, porém fica desabilitada,
+podendo ser trocada de volta usando o devtools */
+        h1{
+            color: rgb(0, 0, 255);
+            font-size: 20px;
+        }
+  mark{
+            background-color: rgb(4, 255, 171);
+        }
+        tagAleatoria{
+            color: rgb(205, 190, 240);
+        }
+div {
+    color: rgb(255, 197, 8);
+}
+
+div > h1 {
+    color: rgb(104, 146, 84);
+
+}
+span{
+    background-color: aqua;
+    border-color: blanchedalmond;
+    color: brown;
+}
+strong{
+    color: brown;
+}

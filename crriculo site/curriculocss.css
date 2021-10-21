@@ -1,0 +1,77 @@
+
+div h1{
+    color: rgb(9, 255, 0);
+    text-align: left;
+    margin: auto;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+div.informacoes_pessoais {
+    border: 1em auto;
+    text-align: left;
+    width: 46em;
+    font-family: arial;
+    color: rgb(9, 255, 0);
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(187, 255, 0);
+
+}
+
+div.informacoes_para_contato{
+    border: 1em auto;
+    text-align: left;
+    width: 46em;
+    font-family:arial ;
+    color: rgb(9, 255, 0);
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(187, 255, 0);
+
+}
+
+
+h1.titulo{
+    color: rgb(255, 0, 221);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: Arial;
+    text-align: center;
+    margin-left:  37%;
+    margin-right:  37%;
+   /* background-image: url(fundo\ cinza.jpg); */
+    width: 500px;
+}
+.foto_pessoal{
+    height: 150px;
+    width: 150px;
+    margin-left: 54%;
+    margin-right: 49%;
+    border: 10px solid rgba(204, 0, 255, 0.459);
+    border-radius: 10em;
+   
+   
+
+}
+/* o "." antes de algo se refere a uma classe */
+/* o "#" antes, se refere a uma id */
+
+body{
+    background-image:url("synthWave.gif");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 85%;
+    
+}
+
+.lorem{
+    color: rgb(9, 255, 0);
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(51, 255, 0);
+
+}
+/* depois botar uma ancora na parte do html pra levar pros outros sites, a ideia que to do curriculo
+    é tipo, um curriculo normal e depois um menu que leva pros outros sites e um anuncio generico pq sim,
+    usando uma ancora em uma imagem como se fosse um anuncio */

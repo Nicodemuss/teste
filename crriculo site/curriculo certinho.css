@@ -1,0 +1,67 @@
+div h1{
+    color: rgb(80, 80, 80);
+    text-align: left;
+    margin: auto;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+div.informacoes_pessoais {
+    border: 1em auto;
+    text-align: left;
+    width: 46em;
+    font-family: arial;
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+}
+
+div.informacoes_para_contato{
+    border: 1em auto;
+    text-align: left;
+    width: 46em;
+    font-family:arial ;
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+
+}
+
+
+h1.titulo{
+    
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+    font-family: Arial;
+    text-align: center;
+    margin-left:  37%;
+    margin-right:  37%;
+   /* background-image: url(fundo\ cinza.jpg); */
+    width: 500px;
+}
+.foto_pessoal{
+    height: 150px;
+    width: 150px;
+    margin-left: 54%;
+    margin-right: 49%;
+    border: 10px solid rgba(255, 233, 136, 0.507);
+    border-radius: 10em;
+}
+.hai p{
+    border: 1em auto;
+    margin-left: 3%;
+    text-align: center;
+    text-align: justify;
+    width: 46em;
+    font-family:arial ;
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+
+}
+body{
+    width: 85%;
+}
